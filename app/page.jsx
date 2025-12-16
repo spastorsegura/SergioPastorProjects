@@ -10,6 +10,7 @@ import Blob from "@/components/Blob";
 import avatarImg from "@/public/assets/avatar.png";
 import Socials from "@/components/Socials";
 import Pattern from "@/components/Pattern";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -49,12 +50,12 @@ const Home = () => {
             Especializado en UX/UI y diseño visual, con conocimientos en React,
             JavaScript, TailwindCSS, Bootstrap y WordPress.
           </p>
-          <button className="btn btn-lg btn-accent mb-16 ">
+          <Link className="btn btn-lg btn-accent mb-16 " href="/contacto" >
             <div className="flex items-center gap-3">
               <span className="text-white">Hablemos</span>
               <MdArrowOutward className="text-xl" />
             </div>
-          </button>
+          </Link>
 
           {/* contact info */}
           <div className="flex flex-col xl:flex-row xl:items-center gap-4 xl:gap-8 mb-12 xl:mb-0">
