@@ -7,37 +7,43 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
-import { MdArrowRightAlt, MdOutlineArrowOutward } from "react-icons/md";
+import { MdAdd } from "react-icons/md";
+
+import { useCart } from "@/context/CartContext";
+import { RiShoppingCartFill } from "react-icons/ri";
+import Link from "next/link";
+import { toast } from "sonner";
 
 const services = [
   {
+    id: "design-ui",
     icon: "/assets/services/design.svg",
-    href: "",
     title: "Diseño de interfaces web",
+    price: 1200,
   },
   {
+    id: "frontend",
     icon: "/assets/services/frontend.svg",
-    href: "",
     title: "Desarrollo frontend",
+    price: 1800,
   },
   {
+    id: "backend",
     icon: "/assets/services/backend.svg",
-    href: "",
     title: "Desarrollo backend",
+    price: 2000,
   },
   {
-    icon: "/assets/services/seo.svg",
-    href: "",
-    title: "Search Engine optimization",
-  },
-  {
-    icon: "/assets/services/video.svg",
-    href: "",
-    title: "Producción video",
+    id: "editorial",
+    icon: "/assets/services/design.svg",
+    title: "Diseño Editorial",
+    price: 2000,
   },
 ];
 
 const Servicios = () => {
+  const { addToCart } = useCart();
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -56,9 +62,12 @@ const Servicios = () => {
             tu negocio
           </h2>
           {/* btn */}
-          <button className="btn btn-lg btn-accent flex gap-2">
-            Todos los servicios <MdArrowRightAlt className="text-2xl" />
-          </button>
+          <Link
+            href="/cart"
+            className="btn btn-lg btn-accent flex gap-2 text-white cursor-pointer"
+          >
+            Ver carrito <RiShoppingCartFill className="text-2xl" />
+          </Link>
         </div>
         {/* slider */}
         <Swiper
@@ -75,16 +84,26 @@ const Servicios = () => {
           {services.map((item, index) => {
             return (
               <SwiperSlide key={index}>
-                <div className="bg-secondary/90 w-full h-[284px] rounded-[20px] px-[30px] py-10 flex flex-col justify-between">
+                <div className="bg-bck border border-primary w-full h-[284px] rounded-[20px] px-[30px] py-10 flex flex-col justify-between">
                   <div className="flex items-center justify-between mb-12">
                     <Image src={item.icon} width={48} height={48} alt="" />
-                    <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center cursor-pointer text-2xl hover:rotate-45 transition-all">
-                      <MdOutlineArrowOutward />
-                    </div>
+                    <button
+                      onClick={() => {
+                        addToCart(item);
+
+                        toast.success("Servicio añadido al carrito", {
+                          description: item.title,
+                        });
+                      }}
+                      className="w-12 h-12 bg-accent text-white rounded-full flex items-center justify-center cursor-pointer text-2xl hover:scale-110 transition-all"
+                    >
+                      <MdAdd />
+                    </button>
                   </div>
-                  <h5 className="text-[22px] font-medium max-w-[240px]">
+                  <h5 className="text-[22px] font-medium max-w-60">
                     {item.title}
                   </h5>
+                  <p className="text-accent font-semibold">S/ {item.price}</p>
                 </div>
               </SwiperSlide>
             );

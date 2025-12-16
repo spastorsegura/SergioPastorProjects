@@ -17,6 +17,7 @@ const Rectangle = () => {
       height: ["0%", "100%"],
     },
   };
+
   return (
     <>
       <motion.div
@@ -29,7 +30,7 @@ const Rectangle = () => {
           duration: 0.6,
           ease: [0.63, 0, 0.17, 1],
         }}
-        className="fixed top-full w-screen h-screen z-20 bg-[#241e36]"
+        className="fixed top-full w-screen h-screen z-30 bg-primary"
       />
       <motion.div
         variants={rectangleVariants}
@@ -41,7 +42,7 @@ const Rectangle = () => {
           duration: 0.8,
           ease: [0.63, 0, 0.17, 1],
         }}
-        className="fixed top-full w-screen h-screen z-10 bg-[#2e2743]"
+        className="fixed top-full w-screen h-screen z-20 bg-secondary"
       />
       <motion.div
         variants={rectangleVariants}
@@ -53,7 +54,7 @@ const Rectangle = () => {
           duration: 1,
           ease: [0.63, 0, 0.17, 1],
         }}
-        className="fixed top-full w-screen h-screen z-30 bg-[#2e2743]"
+        className="fixed top-full w-screen h-screen z-10 bg-primary"
       />
       <motion.div
         variants={rectangleVariants}
@@ -65,7 +66,7 @@ const Rectangle = () => {
           duration: 1,
           ease: [0.63, 0, 0.17, 1],
         }}
-        className="fixed top-full w-screen h-screen z-10 bg-[#2e2743]"
+        className="fixed top-full w-screen h-screen z-10 bg-secondary"
       />
     </>
   );

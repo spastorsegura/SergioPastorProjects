@@ -18,7 +18,7 @@ const projects = [
     id: 1,
     category: "Desarrollo",
     title: "Oriunda",
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/thumb1.webp",
     link: "https://oriunda.com.pe/",
     github: "",
     tech: ["WordPress", "WPBakery", "Google Analytics"],
@@ -27,7 +27,7 @@ const projects = [
     id: 2,
     category: "Desarrollo",
     title: "CodeCafé.",
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/thumb2.webp",
     link: "https://codecafeperu.netlify.app/",
     github: "",
     tech: ["ReactJS", "TailwindCSS", "framer-motion"],
@@ -36,7 +36,7 @@ const projects = [
     id: 3,
     category: "Desarrollo",
     title: "La Ola Cevichera",
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/thumb3.webp",
     link: "https://ola-cevichera.netlify.app/",
     github: "",
     tech: ["ReactJS", "TailwindCSS", "framer-motion"],
@@ -45,7 +45,7 @@ const projects = [
     id: 4,
     category: "Desarrollo",
     title: "Cocktail recetas",
-    image: "/assets/work/thumb4.png",
+    image: "/assets/work/thumb4.webp",
     link: "https://bebidasreactsp.netlify.app/",
     github: "",
     tech: ["ReactJS", "TailwindCSS", "Zustand", "Zod", "REST API"],
@@ -54,7 +54,7 @@ const projects = [
     id: 5,
     category: "Desarrollo",
     title: "GuitarLA",
-    image: "/assets/work/thumb5.png",
+    image: "/assets/work/thumb5.webp",
     link: "https://guitarlasp.netlify.app/",
     github: "",
     tech: ["ReactJS", "TailwindCSS", "HTML"],
@@ -63,7 +63,7 @@ const projects = [
     id: 6,
     category: "Desarrollo",
     title: "Shopi",
-    image: "/assets/work/thumb6.png",
+    image: "/assets/work/thumb6.webp",
     link: "https://cart-react-ej.netlify.app/",
     github: "",
     tech: ["ReactJS", "TailwindCSS", "HTML"],
@@ -72,7 +72,7 @@ const projects = [
     id: 7,
     category: "UX/UI",
     title: "PEB Home",
-    image: "/assets/work/thumb7.png",
+    image: "/assets/work/thumb7.webp",
     link: "https://xd.adobe.com/view/7b0e5841-22a1-4681-a1a7-a3c0f3e0ae41-2e5d/?fullscreen",
     github: "",
     tech: ["Adobe XD", "UX/UI"],
@@ -81,7 +81,7 @@ const projects = [
     id: 8,
     category: "UX/UI",
     title: "Fonoteca",
-    image: "/assets/work/thumb8.png",
+    image: "/assets/work/thumb8.webp",
     link: "https://xd.adobe.com/view/7b0e5841https://xd.adobe.com/view/0dd41eb8-0ebd-4a14-8200-c250e43f6a7f-5887/?fullscreen",
     github: "",
     tech: ["Adobe XD", "UX/UI"],
@@ -90,7 +90,7 @@ const projects = [
     id: 9,
     category: "UX/UI",
     title: "Fotografiando al Perú",
-    image: "/assets/work/thumb9.png",
+    image: "/assets/work/thumb9.webp",
     link: "https://xd.adobe.com/embed/a8def9d7-25b1-47ce-9b53-4faf0fee1e48-fd8d/https://xd.adobe.com/embed/a8def9d7-25b1-47ce-9b53-4faf0fee1e48-fd8d/",
     github: "",
     tech: ["Adobe XD", "UX/UI"],
@@ -99,7 +99,7 @@ const projects = [
     id: 10,
     category: "Ilustración",
     title: "Ilustraciones",
-    image: "/assets/work/thumb10.png",
+    image: "/assets/work/thumb10.webp",
     link: "",
     github: "",
     tech: ["Adobe Fresco", "Photoshop"],
@@ -108,7 +108,7 @@ const projects = [
     id: 11,
     category: "Desarrollo",
     title: "Artesanía Alanya",
-    image: "/assets/work/thumb11.png",
+    image: "/assets/work/thumb11.webp",
     link: "https://artetextilalanya.netlify.app/",
     github: "",
     tech: ["Wordpress", "templates", "plugins", "HTML", "CSS", "JS"],
@@ -117,7 +117,7 @@ const projects = [
     id: 12,
     category: "Diseño",
     title: "USIL Editorial",
-    image: "/assets/work/thumb12.png",
+    image: "/assets/work/thumb12.webp",
     link: "https://xd.adobe.com/view/2a6aaa1e-92c8-4df4-94d4-aa4bc41c8efa-7f39/?fullscreen",
     github: "",
     tech: [
@@ -148,7 +148,7 @@ const Trabajos = () => {
         </h2>
         {/* tabs */}
         <Tabs
-          defaultValue="desarrollo"
+          defaultValue="Desarrollo"
           className={"w-full flex flex-col gap-6 xl:gap-12"}
         >
           <TabsList
@@ -162,7 +162,7 @@ const Trabajos = () => {
                   key={category}
                   value={category}
                   className={
-                    "capitalize border border-white/10 data-[state=active]:bg-accent h-12 px-6 rounded-full cursor-pointer"
+                    "capitalize  border border-white/10 data-[state=active]:bg-accent data-[state=active]:text-white h-12 px-6 rounded-full cursor-pointer"
                   }
                 >
                   {category === "UX/UI" ? "UX/UI Design" : category}
@@ -194,12 +194,12 @@ const Trabajos = () => {
                                 {/* tech */}
                                 <div className="xl:mb-4 max-w-[300px] min-h-[130px]">
                                   <p>Tecnologías usadas</p>
-                                  <ul className="flex flex-wrap gap-4">
+                                  <ul className="flex flex-wrap gap-4 mt-3">
                                     {project.tech.map((item, index) => {
                                       return (
                                         <li
                                           key={index}
-                                          className="flex items-center gap-4 bg-[#a883ff]/13 h-7 px-3.5 rounded-full"
+                                          className="flex items-center gap-4 bg-primary/13 h-7 px-3.5 rounded-full"
                                         >
                                           {item}
                                         </li>
@@ -208,7 +208,7 @@ const Trabajos = () => {
                                   </ul>
                                 </div>
                                 {/* btns */}
-                                <div className="flex flex-col sm:flex-row gap-4">
+                                <div className="flex flex-col sm:flex-row gap-4 text-white">
                                   <Link href={project.link}>
                                     <button className="btn btn-sm btn-accent flex gap-2">
                                       <MdArrowOutward className="text-xl" />

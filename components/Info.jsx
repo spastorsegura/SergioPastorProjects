@@ -1,8 +1,8 @@
 import {
+  HiOutlineClock,
   HiOutlineLocationMarker,
   HiOutlineMail,
   HiOutlinePhone,
-  HiOutlineUser,
 } from "react-icons/hi";
 
 const Info = () => {
@@ -10,10 +10,10 @@ const Info = () => {
     <div className="flex flex-col gap-6 md:gap-10">
       <div className="flex flex-col md:flex-row gap-4">
         <div className="w-[280px] flex items-start gap-4">
-          <HiOutlineUser className="text-2xl mt-1 text-accent" />
+          <HiOutlineClock className="text-2xl mt-1 text-accent" />
           <div className="">
-            <p>Cumpleaños</p>
-            <p>30 de abril de 1988</p>
+            <p>Disponibilidad</p>
+            <p>Lunes a Viernes, 9am - 6pm</p>
           </div>
         </div>
         <div className="w-[280px] flex items-start gap-4">

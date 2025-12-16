@@ -29,13 +29,13 @@ const Journey = () => {
             {/* bullets */}
             <div className="flex flex-col w-max justify-center items-center">
               <div className="w-3 h-3 bg-accent rounded-full"></div>
-              <div className="w-[1px] h-[180px] bg-white/10"></div>
+              <div className="w-[1px] h-[180px] bg-primary/90"></div>
             </div>
             {/* text */}
             <div className="max-w-[500px]">
-              <p className="mb-6 text-lg text-white/50">{years}</p>
+              <p className="mb-6 text-lg text-secondary/50">{years}</p>
               <h4 className="h4 mb-2">{role}</h4>
-              <p className="text-lg text-white/50">{institution}</p>
+              <p className="text-lg text-secondary/50">{institution}</p>
             </div>
           </div>
         );

@@ -12,7 +12,13 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "./ui/tooltip";
-
+import {
+  BiLogoAdobe,
+  BiLogoFigma,
+  BiLogoMongodb,
+  BiLogoPostgresql,
+} from "react-icons/bi";
+import { HiDatabase } from "react-icons/hi";
 const skills = [
   {
     icon: <RiHtml5Fill />,
@@ -38,6 +44,26 @@ const skills = [
     icon: <RiNodejsFill />,
     name: "Node.js",
   },
+  {
+    icon: <HiDatabase />,
+    name: "Database",
+  },
+  {
+    icon: <BiLogoMongodb />,
+    name: "MongoDB",
+  },
+  {
+    icon: <BiLogoPostgresql />,
+    name: "PostgreSQL",
+  },
+  {
+    icon: <BiLogoFigma />,
+    name: "Figma",
+  },
+  {
+    icon: <BiLogoAdobe />,
+    name: "Adobe Cloud Creative",
+  },
 ];
 
 const Skills = () => {
@@ -51,8 +77,8 @@ const Skills = () => {
           return (
             <TooltipProvider key={index}>
               <Tooltip>
-                <TooltipTrigger className="w-16 h-16 rounded-full flex items-center justify-center bg-tertiary/70 group">
-                  <div className="text-3xl group-hover:text-accent transition-all">
+                <TooltipTrigger className="w-16 h-16 rounded-full flex items-center justify-center bg-secondary group">
+                  <div className="text-3xl text-white group-hover:text-accent transition-all">
                     {item.icon}
                   </div>
                 </TooltipTrigger>

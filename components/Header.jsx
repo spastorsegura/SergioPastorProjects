@@ -24,7 +24,7 @@ const Header = () => {
           {/* nav mobile - (sheet coomponent)*/}
 
           <Sheet>
-            <SheetTrigger className="cursor-pointer text-[30px] text-white">
+            <SheetTrigger className="cursor-pointer text-[30px] text-accent">
               <CiMenuFries />
             </SheetTrigger>
             <SheetContent
@@ -41,12 +41,17 @@ const Header = () => {
               </SheetHeader>
               <NavLinks containerStyles="flex flex-col gap-8 max-w-[100px]" />
               <div className="">
-                <button className="btn btn-lg btn-tertiary mb-16">
-                  <div className="flex items-center gap-3" >
+                <a
+                  href="/assets/cv Sergio Pastor.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-lg btn-tertiary mb-16"
+                >
+                  <div className="flex items-center gap-3">
                     <span>Descargar CV</span>
                     <MdFileDownload className="text-xl" />
                   </div>
-                </button>
+                </a>
                 <Socials
                   containerStyles="flex gap-4"
                   iconStyles="bg-accent text-white hover:bg-accent-hover transition w-[40px] h-[40px] text-[20px] flex items-center justify-center rounded-full cursor-pointer"

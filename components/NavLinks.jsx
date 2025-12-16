@@ -6,7 +6,7 @@ import React from "react";
 
 const links = [
   {
-    name: "home",
+    name: "inicio",
     path: "/",
   },
   {
@@ -14,7 +14,7 @@ const links = [
     path: "/sobre-mi",
   },
   {
-    name: "servicios",
+    name: "tienda",
     path: "/servicios",
   },
   {
@@ -29,23 +29,39 @@ const links = [
 
 const NavLinks = ({ containerStyles }) => {
   const pathname = usePathname();
+
+  const servicesRoutes = ["/servicios", "/cart", "/checkout"];
+
   return (
     <ul className={containerStyles}>
       {links.map((link, index) => {
-        const isActive = pathname === link.path;
-        const charLength = link.name.length;
-        const lineWidth = charLength > 5 ? "after:w-[120%]" : "after:w-[90%]";
+        const isActive =
+          link.path === "/servicios"
+            ? servicesRoutes.includes(pathname)
+            : pathname === link.path;
 
         return (
           <Link
             href={link.path}
             key={index}
-            className={`relative text-lg uppercase text-white ${
-              isActive &&
-              `after:content-[''] after:block after:absolute after:left-0 after:top-1/2 ${lineWidth} after:h-[4px] after:bg-accent after:translate-y-1/2 after:z-0`
-            }`}
+            className={`relative text-lg uppercase text-secondary transition-colors duration-300
+              after:content-['']
+              after:absolute
+              after:left-0
+              after:top-1/2
+              after:h-1
+              after:w-full
+              after:bg-bck/60
+              after:-translate-y-1/2
+              after:origin-left
+              after:scale-x-0
+              after:transition-transform
+              after:duration-300
+              hover:after:scale-x-100
+              ${isActive ? "after:scale-x-100 text-accent" : ""}
+            `}
           >
-           <span className="relative z-10">{link.name}</span> 
+            <span className="relative z-10">{link.name}</span>
           </Link>
         );
       })}

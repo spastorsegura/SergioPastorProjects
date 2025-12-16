@@ -1,9 +1,11 @@
+import Image from "next/image";
 import Link from "next/link";
+import logoImg from "@/public/assets/logo.svg";
 
 const Logo = () => {
   return (
-    <Link href="/" className="text-[28px] font-normal">
-      Sergio <span className="text-accent te4xl">Pastor.</span>
+    <Link href="/">
+      <Image src={logoImg} alt="" className="w-[50%] xl:w-[80%]  mx-auto" />
     </Link>
   );
 };

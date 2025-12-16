@@ -44,14 +44,14 @@ const Home = () => {
               cursor={false}
             />
           </h1>
-          <p className="max-w-[500px] mb-[44px]">
+          <p className="max-w-[500px] mb-11">
             Experiencia en interfaces, diseño digital y desarrollo web.
             Especializado en UX/UI y diseño visual, con conocimientos en React,
             JavaScript, TailwindCSS, Bootstrap y WordPress.
           </p>
-          <button className="btn btn-lg btn-accent mb-16">
+          <button className="btn btn-lg btn-accent mb-16 ">
             <div className="flex items-center gap-3">
-              <span>Hablemos</span>
+              <span className="text-white">Hablemos</span>
               <MdArrowOutward className="text-xl" />
             </div>
           </button>
@@ -63,7 +63,9 @@ const Home = () => {
               <span className="text-accent">
                 <HiOutlinePhone className="text-lg" />
               </span>
-              <span className="">+51 976 317 906</span>
+              <a className="" href="tel:+51976317906" target="_blank">
+                +51 976 317 906
+              </a>
             </div>
 
             {/* mail */}
@@ -71,7 +73,13 @@ const Home = () => {
               <span className="text-accent">
                 <HiOutlineMail className="text-lg" />
               </span>
-              <span className="">sergioj.pastorsegura@gmail.com</span>
+              <a
+                className=""
+                href="mailto:sergioj.pastorsegura@gmail.com"
+                target="_blank"
+              >
+                sergioj.pastorsegura@gmail.com
+              </a>
             </div>
           </div>
 
@@ -98,7 +106,7 @@ const Home = () => {
           {/* overlay gradient */}
           <div
             className="w-full h-[164px] 
-         absolute bottom-0 left-0 right-0 bg-linear-to-t from-primary via-primary to-primary/10"
+         absolute bottom-0 left-0 right-0 bg-linear-to-t from-bck via-bck to-bck/2"
           ></div>
         </div>
       </div>

@@ -1,4 +1,7 @@
 "use client";
+import emailjs from "@emailjs/browser";
+import { toast } from "sonner";
+
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -16,7 +19,34 @@ import {
   HiOutlineMap,
   HiOutlinePhone,
 } from "react-icons/hi";
-import { RiMapPinLine } from "react-icons/ri";
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  const toastId = toast.loading("Enviando mensaje...");
+
+  emailjs
+    .sendForm(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE,
+      e.target,
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+    )
+    .then(() => {
+      toast.success("Mensaje enviado correctamente", {
+        id: toastId,
+        description: "Te responderé lo antes posible",
+      });
+      e.target.reset();
+    })
+    .catch((error) => {
+      console.error(error);
+      toast.error("Error al enviar el mensaje", {
+        id: toastId,
+        description: "Intenta nuevamente o escríbeme por WhatsApp",
+      });
+    });
+};
 
 const Contacto = () => {
   return (
@@ -50,14 +80,21 @@ const Contacto = () => {
                   <span className="text-accent">
                     <HiOutlinePhone />
                   </span>
-                  <span>+51 976 317 906</span>
+                  <a href="tel:+51976317906" target="_blank">
+                    +51 976 317 906
+                  </a>
                 </div>
                 {/* email */}
                 <div className="flex items-center gap-4 text-lg">
                   <span className="text-accent">
                     <HiOutlineMail />
                   </span>
-                  <span>sergioj.pastorsegura@gmail.com</span>
+                  <a
+                    href="mailto:sergioj.pastorsegura@gmail.com"
+                    target="_blank"
+                  >
+                    sergioj.pastorsegura@gmail.com
+                  </a>
                 </div>
                 {/* location */}
                 <div className="flex items-center gap-4 text-lg">
@@ -70,7 +107,10 @@ const Contacto = () => {
             </div>
             {/* form */}
             <div className="flex-1">
-              <form action="" className="flex flex-col gap-6 items-start">
+              <form
+                onSubmit={handleSubmit}
+                className="flex flex-col gap-6 items-start"
+              >
                 {/* first and lastname */}
                 <div className="flex flex-col xl:flex-row gap-6 w-full">
                   <div className="w-full">
@@ -116,11 +156,13 @@ const Contacto = () => {
                   <Select name="service" required>
                     <SelectTrigger
                       id="service"
-                      className={"w-full h-12! bg-white/5 border-white/10 px-4"}
+                      className={
+                        "w-full h-12! bg-secondary/5 border-secondary/10 px-4"
+                      }
                     >
                       <SelectValue placeholder="Seleccione aquí"></SelectValue>
                     </SelectTrigger>
-                    <SelectContent className={"bg-black border-white/20"}>
+                    <SelectContent className={"bg-bck border-secondary/10"}>
                       <SelectItem value="desarrollo">Desarrollo</SelectItem>
                       <SelectItem value="UX/UI">UX/UI</SelectItem>
                       <SelectItem value="diseño">Diseño</SelectItem>
@@ -138,14 +180,14 @@ const Contacto = () => {
                     name="message"
                     placeholder="Escribe tu mensaje..."
                     className={
-                      "min-h-40 bg-white/5 border-white/10 focus-visible:border-accent focus-visible:ring-accent focus-visible:ring-[1px] resize-none p-4 selection:bg-accent placeholder:text-white/50"
+                      "min-h-40 bg-secondary/5 border-secondary/10 focus-visible:border-accent focus-visible:ring-accent focus-visible:ring-[1px] resize-none p-4 selection:bg-accent placeholder:text-secondary/50"
                     }
                   />
                 </div>
                 {/* btn */}
-                <button className="btn btn-lg btn-accent">
+                <button className="btn btn-lg btn-accent text-white">
                   <div className="flex items-center gap-3">
-                    <span className="font-medium">Enviar mensaje</span>
+                    <span className="font-medium ">Enviar mensaje</span>
                     <HiOutlineArrowRight className="text-xl" />
                   </div>
                 </button>

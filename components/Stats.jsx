@@ -9,7 +9,7 @@ const Stats = () => {
           <CountUp end={10} duration={5} delay={2} className="block w-[60px]" />
         </div>
         <span>
-          Años <br /> Experiencia
+          años de <br /> experiencia
         </span>
       </div>
     </div>
