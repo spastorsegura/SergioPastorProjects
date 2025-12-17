@@ -1,157 +1,202 @@
-<svg width="1515" height="660" viewBox="0 0 1515 660" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g opacity="0.8">
-<mask id="mask0_168_4188" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="374" y="-108" width="768" height="768">
-<rect width="768" height="768" transform="translate(374 -108)" fill="url(#paint0_radial_168_4188)"/>
-</mask>
-<g mask="url(#mask0_168_4188)">
-<g clip-path="url(#clip0_168_4188)">
-<g opacity="0.5">
-<g clip-path="url(#clip1_168_4188)">
-<line x1="374.3" y1="-108" x2="374.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="422.3" y1="-108" x2="422.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="470.3" y1="-108" x2="470.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="518.3" y1="-108" x2="518.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="566.3" y1="-108" x2="566.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="614.3" y1="-108" x2="614.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="662.3" y1="-108" x2="662.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="710.3" y1="-108" x2="710.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="758.3" y1="-108" x2="758.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="806.3" y1="-108" x2="806.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="854.3" y1="-108" x2="854.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="902.3" y1="-108" x2="902.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="950.3" y1="-108" x2="950.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="998.3" y1="-108" x2="998.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="1046.3" y1="-108" x2="1046.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="1094.3" y1="-108" x2="1094.3" y2="660" stroke="#5810FF" stroke-width="0.6"/>
-</g>
-<rect x="374.5" y="-107.5" width="767" height="767" stroke="#1F242F"/>
-</g>
-<g opacity="0.5">
-<g clip-path="url(#clip2_168_4188)">
-<line x1="374" y1="35.7" x2="1142" y2="35.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="83.7" x2="1142" y2="83.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="131.7" x2="1142" y2="131.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="179.7" x2="1142" y2="179.7" stroke="#5810FF" stroke-width="0.6"/>
-<line x1="374" y1="227.7" x2="1142" y2="227.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="275.7" x2="1142" y2="275.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="323.7" x2="1142" y2="323.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="371.7" x2="1142" y2="371.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="419.7" x2="1142" y2="419.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="467.7" x2="1142" y2="467.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="515.7" x2="1142" y2="515.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="563.7" x2="1142" y2="563.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="611.7" x2="1142" y2="611.7" stroke="#5B28FF" stroke-width="0.6"/>
-<line x1="374" y1="659.7" x2="1142" y2="659.7" stroke="#5B28FF" stroke-width="0.6"/>
-</g>
-<rect x="374.5" y="-107.5" width="767" height="767" stroke="#1F242F"/>
-</g>
-</g>
-<path d="M758 168L758 192" stroke="url(#paint1_linear_168_4188)"/>
-<path d="M770 180L746 180" stroke="url(#paint2_linear_168_4188)"/>
-<path d="M614 268L614 284" stroke="url(#paint3_linear_168_4188)"/>
-<path d="M626 276L602 276" stroke="url(#paint4_linear_168_4188)"/>
-<path d="M999 410L999 428" stroke="url(#paint5_linear_168_4188)"/>
-<path d="M1008 419L990 419" stroke="url(#paint6_linear_168_4188)"/>
-<path d="M950 268L950 284" stroke="url(#paint7_linear_168_4188)"/>
-<path d="M958 276L942 276" stroke="url(#paint8_linear_168_4188)"/>
-<path d="M567 363L567 381" stroke="url(#paint9_linear_168_4188)"/>
-<path d="M576 372L558 372" stroke="url(#paint10_linear_168_4188)"/>
-<path d="M951 120L951 144" stroke="url(#paint11_linear_168_4188)"/>
-<path d="M963 132L939 132" stroke="url(#paint12_linear_168_4188)"/>
-<path d="M854 215L854 239" stroke="url(#paint13_linear_168_4188)"/>
-<path d="M866 227L842 227" stroke="url(#paint14_linear_168_4188)"/>
-<circle cx="662" cy="228" r="2" fill="#5810FF"/>
-<circle cx="854" cy="132" r="2" fill="#5810FF"/>
-<circle cx="903" cy="324" r="2" fill="#5810FF"/>
-<circle cx="518" cy="276" r="2" fill="#5810FF"/>
-<rect x="902" y="180" width="49" height="48" fill="#5810FF" fill-opacity="0.36"/>
-<rect x="470" y="324" width="49" height="48" fill="#5810FF" fill-opacity="0.36"/>
-<rect x="999" y="324" width="49" height="48" fill="#5810FF"/>
-</g>
-</g>
-<defs>
-<radialGradient id="paint0_radial_168_4188" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(384 384) rotate(90) scale(384 384)">
-<stop/>
-<stop offset="1" stop-opacity="0"/>
-</radialGradient>
-<linearGradient id="paint1_linear_168_4188" x1="758" y1="192" x2="758" y2="168" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint2_linear_168_4188" x1="746" y1="180" x2="770" y2="180" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint3_linear_168_4188" x1="614" y1="284" x2="614" y2="268" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint4_linear_168_4188" x1="602" y1="276" x2="626" y2="276" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint5_linear_168_4188" x1="999" y1="428" x2="999" y2="410" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint6_linear_168_4188" x1="990" y1="419" x2="1008" y2="419" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint7_linear_168_4188" x1="950" y1="284" x2="950" y2="268" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint8_linear_168_4188" x1="942" y1="276" x2="958" y2="276" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint9_linear_168_4188" x1="567" y1="381" x2="567" y2="363" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint10_linear_168_4188" x1="558" y1="372" x2="576" y2="372" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint11_linear_168_4188" x1="951" y1="144" x2="951" y2="120" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint12_linear_168_4188" x1="939" y1="132" x2="963" y2="132" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint13_linear_168_4188" x1="854" y1="239" x2="854" y2="215" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint14_linear_168_4188" x1="842" y1="227" x2="866" y2="227" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0"/>
-<stop offset="0.50284" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<clipPath id="clip0_168_4188">
-<rect width="768" height="768" fill="white" transform="translate(374 -108)"/>
-</clipPath>
-<clipPath id="clip1_168_4188">
-<rect x="374" y="-108" width="768" height="768" fill="white"/>
-</clipPath>
-<clipPath id="clip2_168_4188">
-<rect x="374" y="-108" width="768" height="768" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200.25 200.25">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: url(#New_Gradient_Swatch-5);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-25, .cls-26, .cls-27, .cls-28 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+
+      .cls-2 {
+        stroke: url(#New_Gradient_Swatch-4);
+      }
+
+      .cls-3 {
+        stroke: url(#New_Gradient_Swatch-9);
+      }
+
+      .cls-4 {
+        stroke: url(#New_Gradient_Swatch-6);
+      }
+
+      .cls-5 {
+        stroke: url(#New_Gradient_Swatch-8);
+      }
+
+      .cls-6 {
+        stroke: url(#New_Gradient_Swatch-2);
+      }
+
+      .cls-7 {
+        stroke: url(#New_Gradient_Swatch-7);
+      }
+
+      .cls-8 {
+        stroke: url(#New_Gradient_Swatch-3);
+      }
+
+      .cls-29 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-9 {
+        stroke: url(#New_Gradient_Swatch-15);
+      }
+
+      .cls-10 {
+        stroke: url(#New_Gradient_Swatch-18);
+      }
+
+      .cls-11 {
+        stroke: url(#New_Gradient_Swatch-17);
+      }
+
+      .cls-12 {
+        stroke: url(#New_Gradient_Swatch-16);
+      }
+
+      .cls-13 {
+        stroke: url(#New_Gradient_Swatch-11);
+      }
+
+      .cls-14 {
+        stroke: url(#New_Gradient_Swatch-12);
+      }
+
+      .cls-15 {
+        stroke: url(#New_Gradient_Swatch-14);
+      }
+
+      .cls-16 {
+        stroke: url(#New_Gradient_Swatch-10);
+      }
+
+      .cls-17 {
+        stroke: url(#New_Gradient_Swatch-19);
+      }
+
+      .cls-18 {
+        stroke: url(#New_Gradient_Swatch-13);
+      }
+
+      .cls-19 {
+        stroke: url(#New_Gradient_Swatch-20);
+      }
+
+      .cls-20 {
+        stroke: url(#New_Gradient_Swatch-23);
+      }
+
+      .cls-21 {
+        stroke: url(#New_Gradient_Swatch-25);
+      }
+
+      .cls-22 {
+        stroke: url(#New_Gradient_Swatch-26);
+      }
+
+      .cls-23 {
+        stroke: url(#New_Gradient_Swatch-27);
+      }
+
+      .cls-24 {
+        stroke: url(#New_Gradient_Swatch-28);
+      }
+
+      .cls-25 {
+        stroke: url(#New_Gradient_Swatch-22);
+      }
+
+      .cls-26 {
+        stroke: url(#New_Gradient_Swatch-24);
+      }
+
+      .cls-27 {
+        stroke: url(#New_Gradient_Swatch-21);
+      }
+
+      .cls-28 {
+        stroke: url(#New_Gradient_Swatch);
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch" data-name="New Gradient Swatch" x1="0" y1="100.12" x2="200.25" y2="100.12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7ac3e0"/>
+      <stop offset=".64" stop-color="#8fa3b9"/>
+      <stop offset="1" stop-color="#9996aa"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-28" x=".12" y=".12" width="200" height="200"/>
+    </clipPath>
+    <linearGradient id="New_Gradient_Swatch-2" data-name="New Gradient Swatch" x1="-62.76" y1="93.95" x2="269.01" y2="93.95" gradientTransform="translate(196.04 -10.11) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-3" data-name="New Gradient Swatch" x1="-9.32" y1="82.21" x2="215.8" y2="82.21" gradientTransform="translate(184.41 -21.85) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-4" data-name="New Gradient Swatch" x1="-22.89" y1="84.2" x2="229.33" y2="84.2" gradientTransform="translate(186.38 -19.86) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-5" data-name="New Gradient Swatch" x1="-42.99" y1="88.17" x2="249.36" y2="88.17" gradientTransform="translate(190.31 -15.89) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-6" data-name="New Gradient Swatch" x1="1.59" y1="90.29" x2="204.73" y2="90.29" gradientTransform="translate(192.42 -13.77) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-7" data-name="New Gradient Swatch" x1="17.73" y1="99.14" x2="188.41" y2="99.14" gradientTransform="translate(201.18 -4.92) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-8" data-name="New Gradient Swatch" x1="35.77" y1="108.36" x2="170.19" y2="108.36" gradientTransform="translate(210.31 4.3) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-9" data-name="New Gradient Swatch" x1="55.43" y1="119.77" x2="150.3" y2="119.77" gradientTransform="translate(221.61 15.71) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-10" data-name="New Gradient Swatch" x1="62.5" y1="124.29" x2="143.17" y2="124.29" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-11" data-name="New Gradient Swatch" x1="84.3" y1="142.47" x2="120.8" y2="142.47" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-12" data-name="New Gradient Swatch" x1="-83.98" y1="102.94" x2="56.84" y2="102.94" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-13" data-name="New Gradient Swatch" x1="81.75" y1="186.48" x2="90.02" y2="186.48" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-14" data-name="New Gradient Swatch" x1="-1.38" y1="175.64" x2="71.61" y2="175.64" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-15" data-name="New Gradient Swatch" x1="-51.92" y1="137.35" x2="63.32" y2="137.35" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-16" data-name="New Gradient Swatch" x1="-59.71" y1="90.78" x2="71.17" y2="90.78" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-17" data-name="New Gradient Swatch" x1="102.41" y1="67.76" x2="104.1" y2="67.76" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-18" data-name="New Gradient Swatch" x1="3.1" y1="73.42" x2="82.52" y2="73.42" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-19" data-name="New Gradient Swatch" x1="58.43" y1="68.58" x2="91.52" y2="68.58" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-20" data-name="New Gradient Swatch" x1="148.14" y1="101.66" x2="308.51" y2="101.66" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-21" data-name="New Gradient Swatch" x1="115.7" y1="186.38" x2="132.35" y2="186.38" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-22" data-name="New Gradient Swatch" x1="133.77" y1="174.59" x2="220.32" y2="174.59" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-23" data-name="New Gradient Swatch" x1="142.12" y1="134.75" x2="302.43" y2="134.75" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-24" data-name="New Gradient Swatch" x1="134.18" y1="84.45" x2="258.12" y2="84.45" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-25" data-name="New Gradient Swatch" x1="122.74" y1="75.57" x2="210.91" y2="75.57" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-26" data-name="New Gradient Swatch" x1="114.07" y1="69.4" x2="154.03" y2="69.4" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-27" data-name="New Gradient Swatch" x1="-84.4" y1="99.95" x2="290.65" y2="99.95" gradientTransform="translate(202.04 -4.17) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+    <linearGradient id="New_Gradient_Swatch-28" data-name="New Gradient Swatch" x1="-108.71" y1="109.95" x2="314.96" y2="109.95" gradientTransform="translate(212.04 5.73) rotate(89.43)" xlink:href="#New_Gradient_Swatch"/>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <g>
+        <g class="cls-29">
+          <g>
+            <ellipse class="cls-6" cx="103.12" cy="93.95" rx="93.46" ry="165.77" transform="translate(8.15 196.13) rotate(-89.43)"/>
+            <ellipse class="cls-8" cx="103.24" cy="82.21" rx="63.39" ry="112.44" transform="translate(20 184.62) rotate(-89.43)"/>
+            <ellipse class="cls-2" cx="103.22" cy="84.2" rx="71.03" ry="125.99" transform="translate(18 186.57) rotate(-89.43)"/>
+            <ellipse class="cls-1" cx="103.18" cy="88.17" rx="82.35" ry="146.05" transform="translate(13.98 190.46) rotate(-89.43)"/>
+            <ellipse class="cls-4" cx="103.16" cy="90.29" rx="55.31" ry="101.45" transform="translate(11.84 192.54) rotate(-89.43)"/>
+            <ellipse class="cls-7" cx="103.07" cy="99.14" rx="46.46" ry="85.22" transform="translate(2.9 201.22) rotate(-89.43)"/>
+            <ellipse class="cls-5" cx="102.98" cy="108.36" rx="36.58" ry="67.08" transform="translate(-6.41 210.25) rotate(-89.43)"/>
+            <ellipse class="cls-3" cx="102.87" cy="119.77" rx="25.83" ry="47.31" transform="translate(-17.93 221.44) rotate(-89.43)"/>
+            <path class="cls-16" d="M62.61,132.65c4.29-10.44,20.62-17.62,40.3-17.42,19.67.2,36.06,7.69,40.14,18.21"/>
+            <path class="cls-13" d="M84.34,143.46c5.33-1.52,11.61-2.36,18.31-2.29,6.65.07,12.85,1.02,18.12,2.61"/>
+            <path class="cls-14" d="M56.72,124.64c-.6-1.68-1.2-3.36-1.82-5.02-28.59-76.63-138.82-14.58-138.82-14.58"/>
+            <path class="cls-18" d="M89.92,144.44c-3.16,3.8-8.05,84.14-8.05,84.14"/>
+            <path class="cls-15" d="M-1.26,213.11s42.09-83.17,72.84-74.18"/>
+            <path class="cls-9" d="M63.21,133.58c-25.51-49.87-115.05,24.73-115.05,24.73"/>
+            <path class="cls-12" d="M-59.68,46.49S25.04,26.61,56.37,81.74c4.75,8.36,9.88,30.51,14.68,56.92"/>
+            <line class="cls-11" x1="102.53" y1="144.93" x2="103.98" y2="-9.41"/>
+            <path class="cls-10" d="M3.12,4.03s53.78,11.79,65.55,52.36c4.9,16.9,9.68,50.39,13.73,86.54"/>
+            <path class="cls-17" d="M58.52-7.07s25.48,23.24,28.9,79.74c1.08,17.8,2.51,44.04,3.97,71.64"/>
+            <path class="cls-19" d="M148.26,127.59c.84-2.36,1.69-4.69,2.57-7.01,25.75-67.93,157.65-38.37,157.65-38.37"/>
+            <path class="cls-27" d="M115.73,144.48c5.39-1.15,16.5,83.92,16.5,83.92"/>
+            <path class="cls-25" d="M220.21,210.22s-47.25-78.25-86.42-70.68"/>
+            <path class="cls-20" d="M142.23,134.38c23.04-38.26,160.32,14.3,160.07,14.73"/>
+            <path class="cls-26" d="M258.12,29.7s-75.58-1.51-108,52.98c-4.92,8.26-10.49,30.3-15.82,56.62"/>
+            <path class="cls-21" d="M210.9,7.92s-59.99,8.83-72.57,49.16c-5.24,16.8-10.69,50.19-15.46,86.24"/>
+            <path class="cls-22" d="M153.98-5.6s-29.91,12.41-34.73,78.59c-1.26,17.33-3.11,44.72-5.06,71.52"/>
+            <ellipse class="cls-23" cx="103.13" cy="99.95" rx="105.66" ry="187.4" transform="translate(2.15 202.07) rotate(-89.43)"/>
+            <ellipse class="cls-24" cx="103.12" cy="109.95" rx="119.37" ry="211.72" transform="translate(-7.85 211.97) rotate(-89.43)"/>
+          </g>
+        </g>
+        <rect class="cls-28" x=".12" y=".12" width="200" height="200"/>
+      </g>
+      <rect class="cls-28" x=".12" y=".12" width="200" height="200"/>
+    </g>
+  </g>
 </svg>
