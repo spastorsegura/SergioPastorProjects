@@ -14,6 +14,17 @@ const journey = [
     role: "Diseñador Gráfico",
     institution: "MADISON Experience Marketing",
   },
+  
+  {
+    years: "Ene 2018 - Oct 2023",
+    role: "Ingeniería de Sistemas",
+    institution: "UPC",
+  },
+  {
+    years: "Ene 2011 - Dic 2015",
+    role: "Arte y Diseño Empresarial",
+    institution: "USIL",
+  },
 ];
 
 const Journey = () => {
@@ -29,7 +40,7 @@ const Journey = () => {
             {/* bullets */}
             <div className="flex flex-col w-max justify-center items-center">
               <div className="w-3 h-3 bg-accent rounded-full"></div>
-              <div className="w-[1px] h-[180px] bg-primary/90"></div>
+              <div className="w-px h-[180px] bg-primary/90"></div>
             </div>
             {/* text */}
             <div className="max-w-[500px]">
